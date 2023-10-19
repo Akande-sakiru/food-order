@@ -82,7 +82,7 @@
         {
             //User not Available and Login FAil
             $_SESSION['login'] = "<div class='error text-center'>Username or Password did not match.</div>";
-            //REdirect to HOme Page/Dashboard
+            //REdirect back to login page
             header('location:'.SITEURL.'admin/login.php');
         }
 
